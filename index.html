@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./js/index.js" defer></script>
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Morse Code Translator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Workbench&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="translator">
+        <div class="translator__container">
+            <textarea
+                class="translator__container__text--A"
+                placeholder="Enter English Text or Morse Code:"
+            ></textarea>
+            <button class="translator__container__button--swap" title="Swap">
+                &#8645;
+            </button>
+            <textarea
+                class="translator__container__text--B"
+                placeholder="Your Translation Will Appear Here!"
+            ></textarea>
+            <button class="translator__container__button--translate">
+                Translate
+            </button>
+            <div class="translator__container__button">
+                <button class="translator__container__button--play">
+                    Play
+                </button>
+                <button class="translator__container__button--stop">
+                    Stop
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
