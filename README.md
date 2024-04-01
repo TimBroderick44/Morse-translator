@@ -6,7 +6,7 @@ This is an app that is able to translate English to Morse Code and vice versa. I
 
 ## 1. Simple but gets the job done!
 
-![Beautiful.....](./assets/morsecode.png)
+![Beautiful.....](./assets/morsecode.PNG)
 
 ## What did I use to create it?
 
